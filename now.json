@@ -1,0 +1,16 @@
+{
+    "builds": [{
+        "src": "app.js",
+        "use": "@now/node"
+    }],
+    "env": {
+        "APP_ID": "@now_bot_app_id",
+        "PRIVATE_KEY": "@new_new_private_key",
+        "WEBHOOK_SECRET": "@now_bot_webhook_secret"
+    },
+    "routes": [{
+        "src": "/",
+        "dest": "/app.js"
+    }],
+    "version": 2
+}
